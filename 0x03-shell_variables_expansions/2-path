@@ -1,6 +1,2 @@
 #!/bin/bash
-
-# Only append /action if it’s not already in PATH
-if [[ ":$PATH:" != *":/action:"* ]]; then
-  export PATH="$PATH:/action"
-fi
+export PATH="$PATH:/action"
